@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D85666921D639358005A51EE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D85666911D639358005A51EE /* TableViewController.m */; };
 		D88EC5E21D63792C00851E32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EC5E11D63792C00851E32 /* main.m */; };
 		D88EC5E51D63792C00851E32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EC5E41D63792C00851E32 /* AppDelegate.m */; };
 		D88EC5E81D63792C00851E32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EC5E71D63792C00851E32 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		D88EC5F31D63792C00851E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88EC5F11D63792C00851E32 /* LaunchScreen.storyboard */; };
 		D88EC5FE1D63792C00851E32 /* CareCloudPatientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EC5FD1D63792C00851E32 /* CareCloudPatientTests.m */; };
 		D88EC6091D63792C00851E32 /* CareCloudPatientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EC6081D63792C00851E32 /* CareCloudPatientUITests.m */; };
+		E83C74087AB4952F08F31E54 /* libPods-CareCloudPatient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB0EAF1E8305D50D367625B /* libPods-CareCloudPatient.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F066BA775A446FCA1D87539 /* Pods-CareCloudPatient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareCloudPatient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CareCloudPatient/Pods-CareCloudPatient.debug.xcconfig"; sourceTree = "<group>"; };
+		9AB0EAF1E8305D50D367625B /* libPods-CareCloudPatient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CareCloudPatient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85666901D639358005A51EE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D85666911D639358005A51EE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		D88EC5DD1D63792C00851E32 /* CareCloudPatient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareCloudPatient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88EC5E11D63792C00851E32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D88EC5E31D63792C00851E32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +59,8 @@
 		D88EC6041D63792C00851E32 /* CareCloudPatientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareCloudPatientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88EC6081D63792C00851E32 /* CareCloudPatientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CareCloudPatientUITests.m; sourceTree = "<group>"; };
 		D88EC60A1D63792C00851E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88EC7521D63837600851E32 /* CareCloudPatient-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CareCloudPatient-Prefix.pch"; sourceTree = "<group>"; };
+		E9ADE3288AEEB36ECF7415ED /* Pods-CareCloudPatient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CareCloudPatient.release.xcconfig"; path = "Pods/Target Support Files/Pods-CareCloudPatient/Pods-CareCloudPatient.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E83C74087AB4952F08F31E54 /* libPods-CareCloudPatient.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D9D8E556A185420FAC837D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F066BA775A446FCA1D87539 /* Pods-CareCloudPatient.debug.xcconfig */,
+				E9ADE3288AEEB36ECF7415ED /* Pods-CareCloudPatient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79E394B8127D3D09FEDD1E85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AB0EAF1E8305D50D367625B /* libPods-CareCloudPatient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D88EC5D41D63792C00851E32 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +113,8 @@
 				D88EC5FC1D63792C00851E32 /* CareCloudPatientTests */,
 				D88EC6071D63792C00851E32 /* CareCloudPatientUITests */,
 				D88EC5DE1D63792C00851E32 /* Products */,
+				3D9D8E556A185420FAC837D3 /* Pods */,
+				79E394B8127D3D09FEDD1E85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +141,8 @@
 				D88EC5F41D63792C00851E32 /* Info.plist */,
 				D88EC5EC1D63792C00851E32 /* CareCloudPatient.xcdatamodeld */,
 				D88EC5E01D63792C00851E32 /* Supporting Files */,
+				D85666901D639358005A51EE /* TableViewController.h */,
+				D85666911D639358005A51EE /* TableViewController.m */,
 			);
 			path = CareCloudPatient;
 			sourceTree = "<group>";
@@ -120,6 +150,7 @@
 		D88EC5E01D63792C00851E32 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D88EC7521D63837600851E32 /* CareCloudPatient-Prefix.pch */,
 				D88EC5E11D63792C00851E32 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D88EC60D1D63792C00851E32 /* Build configuration list for PBXNativeTarget "CareCloudPatient" */;
 			buildPhases = (
+				DE011115BCBB4563C4972873 /* [CP] Check Pods Manifest.lock */,
 				D88EC5D91D63792C00851E32 /* Sources */,
 				D88EC5DA1D63792C00851E32 /* Frameworks */,
 				D88EC5DB1D63792C00851E32 /* Resources */,
+				B3466A345826229CE6249CE4 /* [CP] Embed Pods Frameworks */,
+				67B76772E2D777F1742650D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +302,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67B76772E2D777F1742650D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CareCloudPatient/Pods-CareCloudPatient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3466A345826229CE6249CE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CareCloudPatient/Pods-CareCloudPatient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE011115BCBB4563C4972873 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D88EC5D91D63792C00851E32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +358,7 @@
 				D88EC5EE1D63792C00851E32 /* CareCloudPatient.xcdatamodeld in Sources */,
 				D88EC5E81D63792C00851E32 /* ViewController.m in Sources */,
 				D88EC5E51D63792C00851E32 /* AppDelegate.m in Sources */,
+				D85666921D639358005A51EE /* TableViewController.m in Sources */,
 				D88EC5E21D63792C00851E32 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +500,7 @@
 		};
 		D88EC60E1D63792C00851E32 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F066BA775A446FCA1D87539 /* Pods-CareCloudPatient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CareCloudPatient/Info.plist;
@@ -428,6 +512,7 @@
 		};
 		D88EC60F1D63792C00851E32 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9ADE3288AEEB36ECF7415ED /* Pods-CareCloudPatient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CareCloudPatient/Info.plist;
@@ -502,6 +587,7 @@
 				D88EC60F1D63792C00851E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D88EC6101D63792C00851E32 /* Build configuration list for PBXNativeTarget "CareCloudPatientTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +596,7 @@
 				D88EC6121D63792C00851E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D88EC6131D63792C00851E32 /* Build configuration list for PBXNativeTarget "CareCloudPatientUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +605,7 @@
 				D88EC6151D63792C00851E32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

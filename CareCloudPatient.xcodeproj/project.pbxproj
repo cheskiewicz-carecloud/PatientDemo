@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D88EC5E21D63792C00851E32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EC5E11D63792C00851E32 /* main.m */; };
+		D88EC5E51D63792C00851E32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EC5E41D63792C00851E32 /* AppDelegate.m */; };
+		D88EC5E81D63792C00851E32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EC5E71D63792C00851E32 /* ViewController.m */; };
+		D88EC5EB1D63792C00851E32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88EC5E91D63792C00851E32 /* Main.storyboard */; };
+		D88EC5EE1D63792C00851E32 /* CareCloudPatient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D88EC5EC1D63792C00851E32 /* CareCloudPatient.xcdatamodeld */; };
+		D88EC5F01D63792C00851E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88EC5EF1D63792C00851E32 /* Assets.xcassets */; };
+		D88EC5F31D63792C00851E32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88EC5F11D63792C00851E32 /* LaunchScreen.storyboard */; };
+		D88EC5FE1D63792C00851E32 /* CareCloudPatientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EC5FD1D63792C00851E32 /* CareCloudPatientTests.m */; };
+		D88EC6091D63792C00851E32 /* CareCloudPatientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88EC6081D63792C00851E32 /* CareCloudPatientUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D88EC5FA1D63792C00851E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88EC5D51D63792C00851E32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88EC5DC1D63792C00851E32;
+			remoteInfo = CareCloudPatient;
+		};
+		D88EC6051D63792C00851E32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D88EC5D51D63792C00851E32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88EC5DC1D63792C00851E32;
+			remoteInfo = CareCloudPatient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D88EC5DD1D63792C00851E32 /* CareCloudPatient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CareCloudPatient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88EC5E11D63792C00851E32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D88EC5E31D63792C00851E32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D88EC5E41D63792C00851E32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D88EC5E61D63792C00851E32 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D88EC5E71D63792C00851E32 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D88EC5EA1D63792C00851E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D88EC5ED1D63792C00851E32 /* CareCloudPatient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CareCloudPatient.xcdatamodel; sourceTree = "<group>"; };
+		D88EC5EF1D63792C00851E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D88EC5F21D63792C00851E32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D88EC5F41D63792C00851E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88EC5F91D63792C00851E32 /* CareCloudPatientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareCloudPatientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88EC5FD1D63792C00851E32 /* CareCloudPatientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CareCloudPatientTests.m; sourceTree = "<group>"; };
+		D88EC5FF1D63792C00851E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88EC6041D63792C00851E32 /* CareCloudPatientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CareCloudPatientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88EC6081D63792C00851E32 /* CareCloudPatientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CareCloudPatientUITests.m; sourceTree = "<group>"; };
+		D88EC60A1D63792C00851E32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88EC5DA1D63792C00851E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88EC5F61D63792C00851E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88EC6011D63792C00851E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D88EC5D41D63792C00851E32 = {
+			isa = PBXGroup;
+			children = (
+				D88EC5DF1D63792C00851E32 /* CareCloudPatient */,
+				D88EC5FC1D63792C00851E32 /* CareCloudPatientTests */,
+				D88EC6071D63792C00851E32 /* CareCloudPatientUITests */,
+				D88EC5DE1D63792C00851E32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88EC5DE1D63792C00851E32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88EC5DD1D63792C00851E32 /* CareCloudPatient.app */,
+				D88EC5F91D63792C00851E32 /* CareCloudPatientTests.xctest */,
+				D88EC6041D63792C00851E32 /* CareCloudPatientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88EC5DF1D63792C00851E32 /* CareCloudPatient */ = {
+			isa = PBXGroup;
+			children = (
+				D88EC5E31D63792C00851E32 /* AppDelegate.h */,
+				D88EC5E41D63792C00851E32 /* AppDelegate.m */,
+				D88EC5E61D63792C00851E32 /* ViewController.h */,
+				D88EC5E71D63792C00851E32 /* ViewController.m */,
+				D88EC5E91D63792C00851E32 /* Main.storyboard */,
+				D88EC5EF1D63792C00851E32 /* Assets.xcassets */,
+				D88EC5F11D63792C00851E32 /* LaunchScreen.storyboard */,
+				D88EC5F41D63792C00851E32 /* Info.plist */,
+				D88EC5EC1D63792C00851E32 /* CareCloudPatient.xcdatamodeld */,
+				D88EC5E01D63792C00851E32 /* Supporting Files */,
+			);
+			path = CareCloudPatient;
+			sourceTree = "<group>";
+		};
+		D88EC5E01D63792C00851E32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D88EC5E11D63792C00851E32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D88EC5FC1D63792C00851E32 /* CareCloudPatientTests */ = {
+			isa = PBXGroup;
+			children = (
+				D88EC5FD1D63792C00851E32 /* CareCloudPatientTests.m */,
+				D88EC5FF1D63792C00851E32 /* Info.plist */,
+			);
+			path = CareCloudPatientTests;
+			sourceTree = "<group>";
+		};
+		D88EC6071D63792C00851E32 /* CareCloudPatientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D88EC6081D63792C00851E32 /* CareCloudPatientUITests.m */,
+				D88EC60A1D63792C00851E32 /* Info.plist */,
+			);
+			path = CareCloudPatientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88EC5DC1D63792C00851E32 /* CareCloudPatient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88EC60D1D63792C00851E32 /* Build configuration list for PBXNativeTarget "CareCloudPatient" */;
+			buildPhases = (
+				D88EC5D91D63792C00851E32 /* Sources */,
+				D88EC5DA1D63792C00851E32 /* Frameworks */,
+				D88EC5DB1D63792C00851E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CareCloudPatient;
+			productName = CareCloudPatient;
+			productReference = D88EC5DD1D63792C00851E32 /* CareCloudPatient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D88EC5F81D63792C00851E32 /* CareCloudPatientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88EC6101D63792C00851E32 /* Build configuration list for PBXNativeTarget "CareCloudPatientTests" */;
+			buildPhases = (
+				D88EC5F51D63792C00851E32 /* Sources */,
+				D88EC5F61D63792C00851E32 /* Frameworks */,
+				D88EC5F71D63792C00851E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D88EC5FB1D63792C00851E32 /* PBXTargetDependency */,
+			);
+			name = CareCloudPatientTests;
+			productName = CareCloudPatientTests;
+			productReference = D88EC5F91D63792C00851E32 /* CareCloudPatientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D88EC6031D63792C00851E32 /* CareCloudPatientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88EC6131D63792C00851E32 /* Build configuration list for PBXNativeTarget "CareCloudPatientUITests" */;
+			buildPhases = (
+				D88EC6001D63792C00851E32 /* Sources */,
+				D88EC6011D63792C00851E32 /* Frameworks */,
+				D88EC6021D63792C00851E32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D88EC6061D63792C00851E32 /* PBXTargetDependency */,
+			);
+			name = CareCloudPatientUITests;
+			productName = CareCloudPatientUITests;
+			productReference = D88EC6041D63792C00851E32 /* CareCloudPatientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D88EC5D51D63792C00851E32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "CareCloud Inc";
+				TargetAttributes = {
+					D88EC5DC1D63792C00851E32 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D88EC5F81D63792C00851E32 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D88EC5DC1D63792C00851E32;
+					};
+					D88EC6031D63792C00851E32 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D88EC5DC1D63792C00851E32;
+					};
+				};
+			};
+			buildConfigurationList = D88EC5D81D63792C00851E32 /* Build configuration list for PBXProject "CareCloudPatient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D88EC5D41D63792C00851E32;
+			productRefGroup = D88EC5DE1D63792C00851E32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88EC5DC1D63792C00851E32 /* CareCloudPatient */,
+				D88EC5F81D63792C00851E32 /* CareCloudPatientTests */,
+				D88EC6031D63792C00851E32 /* CareCloudPatientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88EC5DB1D63792C00851E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88EC5F31D63792C00851E32 /* LaunchScreen.storyboard in Resources */,
+				D88EC5F01D63792C00851E32 /* Assets.xcassets in Resources */,
+				D88EC5EB1D63792C00851E32 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88EC5F71D63792C00851E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88EC6021D63792C00851E32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88EC5D91D63792C00851E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88EC5EE1D63792C00851E32 /* CareCloudPatient.xcdatamodeld in Sources */,
+				D88EC5E81D63792C00851E32 /* ViewController.m in Sources */,
+				D88EC5E51D63792C00851E32 /* AppDelegate.m in Sources */,
+				D88EC5E21D63792C00851E32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88EC5F51D63792C00851E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88EC5FE1D63792C00851E32 /* CareCloudPatientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88EC6001D63792C00851E32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88EC6091D63792C00851E32 /* CareCloudPatientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D88EC5FB1D63792C00851E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88EC5DC1D63792C00851E32 /* CareCloudPatient */;
+			targetProxy = D88EC5FA1D63792C00851E32 /* PBXContainerItemProxy */;
+		};
+		D88EC6061D63792C00851E32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88EC5DC1D63792C00851E32 /* CareCloudPatient */;
+			targetProxy = D88EC6051D63792C00851E32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D88EC5E91D63792C00851E32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88EC5EA1D63792C00851E32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D88EC5F11D63792C00851E32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88EC5F21D63792C00851E32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D88EC60B1D63792C00851E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D88EC60C1D63792C00851E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88EC60E1D63792C00851E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CareCloudPatient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carecloud.CareCloudPatient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D88EC60F1D63792C00851E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CareCloudPatient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carecloud.CareCloudPatient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D88EC6111D63792C00851E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CareCloudPatientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carecloud.CareCloudPatientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareCloudPatient.app/CareCloudPatient";
+			};
+			name = Debug;
+		};
+		D88EC6121D63792C00851E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CareCloudPatientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carecloud.CareCloudPatientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CareCloudPatient.app/CareCloudPatient";
+			};
+			name = Release;
+		};
+		D88EC6141D63792C00851E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CareCloudPatientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carecloud.CareCloudPatientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CareCloudPatient;
+			};
+			name = Debug;
+		};
+		D88EC6151D63792C00851E32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CareCloudPatientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = carecloud.CareCloudPatientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CareCloudPatient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D88EC5D81D63792C00851E32 /* Build configuration list for PBXProject "CareCloudPatient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88EC60B1D63792C00851E32 /* Debug */,
+				D88EC60C1D63792C00851E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88EC60D1D63792C00851E32 /* Build configuration list for PBXNativeTarget "CareCloudPatient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88EC60E1D63792C00851E32 /* Debug */,
+				D88EC60F1D63792C00851E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D88EC6101D63792C00851E32 /* Build configuration list for PBXNativeTarget "CareCloudPatientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88EC6111D63792C00851E32 /* Debug */,
+				D88EC6121D63792C00851E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D88EC6131D63792C00851E32 /* Build configuration list for PBXNativeTarget "CareCloudPatientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88EC6141D63792C00851E32 /* Debug */,
+				D88EC6151D63792C00851E32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D88EC5EC1D63792C00851E32 /* CareCloudPatient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D88EC5ED1D63792C00851E32 /* CareCloudPatient.xcdatamodel */,
+			);
+			currentVersion = D88EC5ED1D63792C00851E32 /* CareCloudPatient.xcdatamodel */;
+			path = CareCloudPatient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D88EC5D51D63792C00851E32 /* Project object */;
+}

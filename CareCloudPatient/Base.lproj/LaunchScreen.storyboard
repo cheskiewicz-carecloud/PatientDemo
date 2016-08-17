@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -16,7 +16,35 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CarePay" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6N-kk-OhY">
+                                <rect key="frame" x="209" y="264" width="183" height="71"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="183" id="R5A-Wz-pLz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="textColor" red="0.76536532589999995" green="0.79624371380000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by CareCloud®" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRI-TU-SFJ">
+                                <rect key="frame" x="226" y="315" width="149" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="FHo-al-7g8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.76536532589999995" green="0.79624371380000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23137254900000001" green="0.61176470589999998" blue="0.87450980389999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="RRI-TU-SFJ" secondAttribute="bottom" constant="265" id="0dp-MV-Hfy"/>
+                            <constraint firstItem="I6N-kk-OhY" firstAttribute="centerX" secondItem="RRI-TU-SFJ" secondAttribute="centerX" id="O1A-f1-B09"/>
+                            <constraint firstItem="RRI-TU-SFJ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="295" id="SVz-ft-s7S"/>
+                            <constraint firstItem="I6N-kk-OhY" firstAttribute="bottom" secondItem="RRI-TU-SFJ" secondAttribute="bottom" id="jDW-Se-jMi"/>
+                            <constraint firstItem="I6N-kk-OhY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="mdo-F5-Rqv"/>
+                            <constraint firstItem="RRI-TU-SFJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tfo-xR-O5R"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
